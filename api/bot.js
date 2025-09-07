@@ -4,7 +4,7 @@ const { Telegraf } = require("telegraf");
 const bot = new Telegraf("7923525398:AAFb1X1vA1sguiasz-D4TCHZoSTs7XyA1CU");
 
 bot.on("text", (ctx) => {
-  ctx.reply("سلام خوبی عشقم ");
+  ctx.reply("سلام خوبی عشقم کیااااا ");
 });
 
 // ورودی Vercel

@@ -1,7 +1,7 @@
 const { Telegraf } = require("telegraf");
 
 // توکن از env
-const bot = new Telegraf(process.env.BOT_TOKEN);
+const bot = new Telegraf("7923525398:AAFb1X1vA1sguiasz-D4TCHZoSTs7XyA1CU");
 
 bot.on("text", (ctx) => {
   ctx.reply("سلام");
